@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://deploy-jornada-full-stack-jp2n.onrender.com/";
+const URL = "https://deploy-jornada-full-stack-jp2n.onrender.com/api";
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);
